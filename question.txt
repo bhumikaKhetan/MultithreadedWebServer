@@ -1,0 +1,17 @@
+In this assignment, you will build a multi-threaded web server. The web server must be able to handle simple HTTP requests and return suitable responses. It must use a master-worker thread pool architecture to handle multiple concurrent clients, where the master thread accepts new connections and the HTTP processing is done by the worker threads in the thread pool.
+
+Detailed instructions on how to solve this assignment, by building the server incrementally step-by-step, can be found here (please skip the parts mentioned as optional in this description).
+
+Building a simple echo server with multi-threading: https://github.com/cserl-iitb/bootcamp2022/tree/main/application_software/week2
+
+Adding HTTP processing to the server: https://github.com/cserl-iitb/bootcamp2022/tree/main/application_software/week3
+
+Adding master-worker thread pool: https://github.com/cserl-iitb/bootcamp2022/tree/main/application_software/week4
+
+The above step by step instructions are only to help you solve the assignment easily. You only need to submit your final code after completing all steps above (HTTP server with worker thread pool). Place your code in a folder whose name is your roll number, tar gzip it, and upload on Moodle.
+
+n this assignment, you will build a load generator and perform a load test on the web server developed by you in PA3. You are expected to write and submit the code for a load generator. You may also submit an updated version of the web server if you happened to fix any bugs and improve your web server from PA3.
+
+Detailed instructions on how to solve this assignment are here: https://github.com/cserl-iitb/bootcamp2022/tree/main/application_software/week5
+
+Please note that we ask you to run valgrind and fix errors first before running the load test, in order to avoid server crashes due to memory errors.
